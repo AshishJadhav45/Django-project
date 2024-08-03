@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transform File</title>
+</head>
+<body style="text-align: center;">
+    <h2>Transformation Completed</h2>
+    <div>
+       <button>
+
+           <a href="{% url 'download_file' %}">Download Output File</a>
+        </button>
+        
+    </div>
+    <br>
+    <h2>Generated Plot</h2>
+    <br>
+    <div>👇</div>
+    
+    <img src="{% url 'plot_image' %}" alt="Generated Plot">
+</body>
+</html>
